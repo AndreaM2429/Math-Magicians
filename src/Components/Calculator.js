@@ -1,3 +1,4 @@
+import calculate from '../Logic/Calculate';
 import './Calculator.css';
 import Panel from './Panel';
 
@@ -7,7 +8,7 @@ function Calculator() {
       <div className="result">
         <span>0</span>
       </div>
-      <Panel />
+      <Panel buttonEvents={calculate} />
     </section>
   );
 }
