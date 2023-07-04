@@ -1,0 +1,13 @@
+.result {
+  background-color: grey;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+span {
+  font-size: 35px;
+  color: #ffff;
+}
