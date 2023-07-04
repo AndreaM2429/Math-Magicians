@@ -1,8 +1,8 @@
 .panel {
-    height: 85vh;
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(5, 20%);
+  height: 85vh;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(5, 20%);
 }
 
 .special {
@@ -10,7 +10,7 @@
 }
 
 .operators {
-  background-color:rgba(255, 131, 30, 0.815);
+  background-color: rgba(255, 131, 30, 0.815);
 }
 
 button {
