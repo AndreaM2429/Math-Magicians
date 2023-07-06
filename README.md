@@ -68,6 +68,7 @@
 - **SPA**
 - **Simple interface**
 - **React App**
+- **Fetch data from [API Ninjas](https://api-ninjas.com/api/quotes)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,10 +196,10 @@ To deploy this project by someone who isn't the owner is prohibit.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement the disign for the calculator using JSX & CSS**
-- [ ] **Use functional components**
-- [ ] **Create the logic for the calculator**
-- [ ] **Fetch data from the API**
+- [ ] **Add a Home page**
+- [ ] **Add a Calculator page**
+- [ ] **Add a Quote page**
+- [ ] **Deploy the project**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
