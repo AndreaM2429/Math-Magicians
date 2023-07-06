@@ -1,6 +1,18 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.calculator {
+  border: 8px solid gray;
+  border-radius: 8px;
+}
+
 .result {
   background-color: grey;
-  height: 15vh;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -10,4 +22,13 @@
 span {
   font-size: 35px;
   color: #ffff;
+}
+
+@media (max-width: 815px) {
+  .container {
+    flex-direction: column;
+    gap: 15px;
+    justify-content: start;
+    padding: 15px;
+  }
 }
