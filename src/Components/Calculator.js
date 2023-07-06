@@ -4,7 +4,7 @@ import Panel from './Panel';
 
 function Calculator() {
   return (
-    <section>
+    <section className="calculator">
       <div className="result">
         <span>0</span>
       </div>

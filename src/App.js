@@ -1,8 +1,12 @@
 import Calculator from './Components/Calculator';
+import QuoteApi from './Components/Quote_API';
 
 function App() {
   return (
-    <Calculator />
+    <section className="container">
+      <QuoteApi />
+      <Calculator />
+    </section>
   );
 }
 
