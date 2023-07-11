@@ -1,0 +1,37 @@
+.header-nav {
+  width: 90%;
+  padding-top: 5px;
+}
+
+.header-nav h1 {
+  font-size: 20px;
+}
+
+.links-li {
+  list-style-type: none;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.links-li li a {
+  color: black;
+  text-decoration: none;
+}
+
+.links-li li a:hover {
+  color: purple;
+}
+
+@media (min-width: 768px) {
+  .header-nav {
+    justify-content: space-evenly;
+  }
+
+  .header-nav h1 {
+    font-size: 40px;
+  }
+
+  .links-li {
+    font-size: 20px;
+  }
+}

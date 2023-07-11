@@ -1,9 +1,9 @@
-import './Panel.css';
+import '../styles/Panel.css';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 
 function Panel({ buttonEvents }) {
-  let [obj, setObj] = useState({
+  let obj = useState({
     total: null,
     next: null,
     operation: null,
@@ -11,7 +11,7 @@ function Panel({ buttonEvents }) {
   const event = (event) => {
     const result = Array.from(document.getElementsByTagName('span'));
     const action = event.target.name;
-    setObj(buttonEvents(obj, action));
+    obj = buttonEvents(obj, action);
     result[0].innerHTML = obj.next || obj.total || '0';
   };
   return (

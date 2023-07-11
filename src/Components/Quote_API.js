@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './quote.css';
+import '../styles/quote.css';
 
 const QuoteApi = () => {
   const [data, setData] = useState([]);
@@ -25,12 +25,12 @@ const QuoteApi = () => {
     getQuote();
   }, [setData, setLoader]);
 
-  if (error) return <p>Someting failed</p>;
+  if (error) return <p className="quotes d-flex message">Someting failed</p>;
 
-  if (loader) return <p>Loading...</p>;
+  if (loader) return <p className="quotes d-flex message">Loading...</p>;
 
   return (
-    <section className="quotes">
+    <section className="quotes d-flex">
       <p>{data.quote}</p>
       <p className="author">{data.author}</p>
     </section>

@@ -1,5 +1,5 @@
 import calculate from '../Logic/Calculate';
-import './Calculator.css';
+import '../styles/Calculator.css';
 import Panel from './Panel';
 
 function Calculator() {
