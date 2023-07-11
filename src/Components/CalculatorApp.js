@@ -2,15 +2,15 @@ import calculate from '../Logic/Calculate';
 import '../styles/Calculator.css';
 import Panel from './Panel';
 
-function Calculator() {
+function CalculatorApp() {
   return (
     <section className="calculator">
       <div className="result">
-        <span>0</span>
+        <span title="span">0</span>
       </div>
       <Panel buttonEvents={calculate} />
     </section>
   );
 }
 
-export default Calculator;
+export default CalculatorApp;
