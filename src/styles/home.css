@@ -1,0 +1,21 @@
+.homePage {
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+  align-items: normal;
+}
+
+@media (min-width: 768px) {
+  .homePage {
+    width: 769px;
+  }
+
+  .homePage h3 {
+    font-size: 30px;
+  }
+
+  .homePage p {
+    font-size: 20px;
+  }
+}

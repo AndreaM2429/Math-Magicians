@@ -1,6 +1,6 @@
 .panel {
   height: 400px;
-  width: 350px;
+  width: 300px;
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(5, 20%);
@@ -18,4 +18,10 @@ button {
   border: 2px solid rgb(184, 184, 184);
   font-size: 28px;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    width: 350px;
+  }
 }

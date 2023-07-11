@@ -1,0 +1,26 @@
+.quotes {
+  height: 100%;
+  width: 90%;
+  font-size: 22px;
+  font-style: italic;
+  flex-direction: column;
+  align-items: normal;
+  font-weight: bold;
+}
+
+.author {
+  font-weight: bold;
+  text-align: end;
+}
+
+.message {
+  font-size: 20px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .quotes {
+    font-size: 30px;
+    width: 768px;
+  }
+}
