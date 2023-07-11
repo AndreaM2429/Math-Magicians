@@ -196,9 +196,6 @@ To deploy this project by someone who isn't the owner is prohibit.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add a Home page**
-- [ ] **Add a Calculator page**
-- [ ] **Add a Quote page**
 - [ ] **Deploy the project**
 
 
