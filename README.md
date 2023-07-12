@@ -8,6 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -69,6 +70,12 @@
 - **Simple interface**
 - **React App**
 - **Fetch data from [API Ninjas](https://api-ninjas.com/api/quotes)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### 🚀 Live demo <a name="live-demo"></a>
+
+[Math Magicians](https://mathmagicians-96gv.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
